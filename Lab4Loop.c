@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
     char ca ;
-    int n ;
-    scanf("%c %d",&ca,&n);
-    for (int iv = 0;iv<n;++iv){
+    int n,r ;
+    scanf("%c %d %d",&ca,&n,&r);
+    for (int iv = 0;iv<r;++iv){
         for (int i=0;i<n;++i){
             printf("%c",ca);
         }
