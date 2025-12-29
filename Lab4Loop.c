@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main(){
-	int score,lo;
-    scanf("%d",&lo);
-    for (int i = 0;i < lo ;++i){
+	int score;
+    while (1){
 	    scanf("%d",&score);
+        if (score == -1){
+            break;
+        }
         //bonus2
 	    if (score <= 100 && score >= 0){
 		    if (score >= 68){
